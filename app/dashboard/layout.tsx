@@ -1,5 +1,5 @@
 import SideNav from '../ui/dashboard/sidenav';
-//adding the children parameter to Layout automatically nests the children components of that folder into the layout
+//adding the children prop to Layout automatically nests the children components of that folder into the layout
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
